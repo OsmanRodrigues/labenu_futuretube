@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style-futuretube.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
     <title>Video 1 - FutureTube</title>
 </head>
 <body>
@@ -14,12 +15,25 @@
     </header>
 
     <main id="videocontainer">
+        <nav>
+            <ul id='navbar'>
+                <a href="index.html">
+                    <li>Início</li>
+                </a>
+                <li>Em alta</li>
+                <li>Inscrições</li>
+                <li>Originais</li>
+                <li id="divider">Biblioteca</li>
+                <li>Histórico</li>
+            </ul>
+        </nav>
         <span id="videotitle">Media 1</span>
         <video id="videoplayer" src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4" controls autoplay loop></video>
     </main>
 
     <footer>
-        <span>Oi! Eu moro no footer!</span>
+        <span id="sm">Powered by OsmanRodrigues</span>
+        <a href="https://github.com/OsmanRodrigues"><i class="fab fa-github"></i></a>
     </footer>
 
 </body>
